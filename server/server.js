@@ -3,6 +3,8 @@ import express from "express";
 import { connectDB } from "./db/connection1.db.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
+import dotenv from "dotenv";
+dotenv.config();
 
 connectDB();
 
