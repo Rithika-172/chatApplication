@@ -1,2 +1,6 @@
 node_modules
-.env
+# Ignore only root .env
+/.env
+
+# Allow .env inside client folder
+!client/.env
